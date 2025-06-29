@@ -1,4 +1,5 @@
 operators = ('+', '-', '*','/')
+roman_numerals =('I','V','X','L','C','D','M')
 
 def console_ps1(func):
     def wrapper(self,):
@@ -40,6 +41,9 @@ class Calculator():
                 previous_operator_position = i
         if self.is_valid == False:
             print("Invalid character in expression.")
+    
+    def __compute(self):
+        pass
 
         
     
